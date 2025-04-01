@@ -106,3 +106,13 @@ resource "cloudflare_record" "google_site_verification" {
   content = "google-site-verification=stBGDiWho6w133rnui7NyhOkEDxMn835kN_FbPO6M3Q"
   proxied = false
 }
+
+#resource "cloudflare_zone_settings_override" "sethwahle-com-settings" {
+#  zone_id = var.cloudflare_zone_id
+
+#  settings {
+#    tls_1_3                  = "on"
+#    automatic_https_rewrites = "on"
+#    ssl                      = "strict"
+#  }
+#}
