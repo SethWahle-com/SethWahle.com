@@ -1,8 +1,0 @@
-[
-null,
-{"id":1,"expanded":true,"name":"Home Living Room","order":1,"parentId":0,"scrollX":625.5,"scrollY":381},
-{"id":2,"expanded":true,"name":"Home Hallway","order":2,"parentId":0,"scrollX":625.5,"scrollY":381},
-{"id":3,"expanded":true,"name":"Home Office","order":3,"parentId":2,"scrollX":625.5,"scrollY":381},
-{"id":4,"expanded":false,"name":"Home Bathroom","order":4,"parentId":3,"scrollX":625.5,"scrollY":381},
-{"id":5,"expanded":false,"name":"Home Garage","order":5,"parentId":2,"scrollX":415.1111111111111,"scrollY":353.3333333333333}
-]
