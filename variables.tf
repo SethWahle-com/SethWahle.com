@@ -13,13 +13,13 @@ variable "ssh_identityfile" {
   default = "~/.ssh/sethwahle"
 }
 
-#variable "cloudflare_api_token" {
-#  type    = string
-#}
+variable "cloudflare_api_token" {
+  type    = string
+}
 
-#variable "cloudflare_zone_id" {
-#  type    = string
-#}
+variable "cloudflare_zone_id" {
+  type    = string
+}
 
 variable "namecheap_user_name" {
   type = string

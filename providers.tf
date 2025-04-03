@@ -8,10 +8,10 @@ terraform {
       source  = "hashicorp/aws"
       version = "5.93.0"
     }
-    #cloudflare = {
-    #  source  = "cloudflare/cloudflare" 
-    #  version = "~> 4"
-    #}
+    cloudflare = {
+      source  = "cloudflare/cloudflare" 
+      version = "~> 4"
+    }
   }
 }
 
@@ -27,6 +27,6 @@ provider "aws" {
   profile                  = "default"
 }
 
-#provider "cloudflare" {
-#  api_token = var.cloudflare_api_token
-#}
+provider "cloudflare" {
+  api_token = var.cloudflare_api_token
+}
